@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30E410D03C15501B6C9A7161 /* Pods_Whatlaza_WhatlazaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACAC93C0A5B55175E20E8D2 /* Pods_Whatlaza_WhatlazaUITests.framework */; };
+		414C36DE7C0EEAFCDE9FDEA5 /* Pods_Whatlaza.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0E950B90C061D9D2B3BF7F /* Pods_Whatlaza.framework */; };
 		4D8FE5402751A0F60007CCBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FE53F2751A0F60007CCBE /* AppDelegate.swift */; };
 		4D8FE5422751A0F60007CCBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FE5412751A0F60007CCBE /* SceneDelegate.swift */; };
-		4D8FE5442751A0F60007CCBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FE5432751A0F60007CCBE /* ViewController.swift */; };
 		4D8FE5472751A0F60007CCBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8FE5452751A0F60007CCBE /* Main.storyboard */; };
 		4D8FE5492751A0F70007CCBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D8FE5482751A0F70007CCBE /* Assets.xcassets */; };
 		4D8FE54C2751A0F70007CCBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8FE54A2751A0F70007CCBE /* LaunchScreen.storyboard */; };
 		4D8FE5572751A0F70007CCBE /* WhatlazaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FE5562751A0F70007CCBE /* WhatlazaTests.swift */; };
 		4D8FE5612751A0F80007CCBE /* WhatlazaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FE5602751A0F80007CCBE /* WhatlazaUITests.swift */; };
 		4D8FE5632751A0F80007CCBE /* WhatlazaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FE5622751A0F80007CCBE /* WhatlazaUITestsLaunchTests.swift */; };
+		4D8FE5702751A40F0007CCBE /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FE56F2751A40F0007CCBE /* MoviesViewController.swift */; };
+		4D8FE5722751E8FA0007CCBE /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FE5712751E8FA0007CCBE /* MovieCell.swift */; };
+		BB3CFB36C7E203A51B388057 /* Pods_WhatlazaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150F285DCF259A6DCFF445BB /* Pods_WhatlazaTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06807F4F1502A4E1D70A4E18 /* Pods-Whatlaza-WhatlazaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Whatlaza-WhatlazaUITests.release.xcconfig"; path = "Target Support Files/Pods-Whatlaza-WhatlazaUITests/Pods-Whatlaza-WhatlazaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		150F285DCF259A6DCFF445BB /* Pods_WhatlazaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatlazaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0E950B90C061D9D2B3BF7F /* Pods_Whatlaza.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Whatlaza.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8FE53C2751A0F60007CCBE /* Whatlaza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whatlaza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8FE53F2751A0F60007CCBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D8FE5412751A0F60007CCBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D8FE5432751A0F60007CCBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D8FE5462751A0F60007CCBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D8FE5482751A0F70007CCBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D8FE54B2751A0F70007CCBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,14 @@
 		4D8FE55C2751A0F80007CCBE /* WhatlazaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatlazaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8FE5602751A0F80007CCBE /* WhatlazaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatlazaUITests.swift; sourceTree = "<group>"; };
 		4D8FE5622751A0F80007CCBE /* WhatlazaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatlazaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4D8FE56F2751A40F0007CCBE /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		4D8FE5712751E8FA0007CCBE /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		60C4D88EA729DDCC7E87F42E /* Pods-WhatlazaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatlazaTests.debug.xcconfig"; path = "Target Support Files/Pods-WhatlazaTests/Pods-WhatlazaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		69071A4BEA3D086842C9DE3B /* Pods-WhatlazaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatlazaTests.release.xcconfig"; path = "Target Support Files/Pods-WhatlazaTests/Pods-WhatlazaTests.release.xcconfig"; sourceTree = "<group>"; };
+		6ACAC93C0A5B55175E20E8D2 /* Pods_Whatlaza_WhatlazaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Whatlaza_WhatlazaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6F5891BACC97ADA7D9A0F6 /* Pods-Whatlaza.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Whatlaza.release.xcconfig"; path = "Target Support Files/Pods-Whatlaza/Pods-Whatlaza.release.xcconfig"; sourceTree = "<group>"; };
+		9AE07EC678222CD7873B3136 /* Pods-Whatlaza-WhatlazaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Whatlaza-WhatlazaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Whatlaza-WhatlazaUITests/Pods-Whatlaza-WhatlazaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BEA7DB54D0C545C810CB1C7C /* Pods-Whatlaza.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Whatlaza.debug.xcconfig"; path = "Target Support Files/Pods-Whatlaza/Pods-Whatlaza.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				414C36DE7C0EEAFCDE9FDEA5 /* Pods_Whatlaza.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB3CFB36C7E203A51B388057 /* Pods_WhatlazaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30E410D03C15501B6C9A7161 /* Pods_Whatlaza_WhatlazaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				4D8FE5552751A0F70007CCBE /* WhatlazaTests */,
 				4D8FE55F2751A0F80007CCBE /* WhatlazaUITests */,
 				4D8FE53D2751A0F60007CCBE /* Products */,
+				CD3AF98259171E01FF20A28A /* Pods */,
+				DE0DFC3C6D20D86A33537328 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +120,12 @@
 			children = (
 				4D8FE53F2751A0F60007CCBE /* AppDelegate.swift */,
 				4D8FE5412751A0F60007CCBE /* SceneDelegate.swift */,
-				4D8FE5432751A0F60007CCBE /* ViewController.swift */,
 				4D8FE5452751A0F60007CCBE /* Main.storyboard */,
+				4D8FE5712751E8FA0007CCBE /* MovieCell.swift */,
 				4D8FE5482751A0F70007CCBE /* Assets.xcassets */,
 				4D8FE54A2751A0F70007CCBE /* LaunchScreen.storyboard */,
 				4D8FE54D2751A0F70007CCBE /* Info.plist */,
+				4D8FE56F2751A40F0007CCBE /* MoviesViewController.swift */,
 			);
 			path = Whatlaza;
 			sourceTree = "<group>";
@@ -127,6 +147,30 @@
 			path = WhatlazaUITests;
 			sourceTree = "<group>";
 		};
+		CD3AF98259171E01FF20A28A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEA7DB54D0C545C810CB1C7C /* Pods-Whatlaza.debug.xcconfig */,
+				7B6F5891BACC97ADA7D9A0F6 /* Pods-Whatlaza.release.xcconfig */,
+				9AE07EC678222CD7873B3136 /* Pods-Whatlaza-WhatlazaUITests.debug.xcconfig */,
+				06807F4F1502A4E1D70A4E18 /* Pods-Whatlaza-WhatlazaUITests.release.xcconfig */,
+				60C4D88EA729DDCC7E87F42E /* Pods-WhatlazaTests.debug.xcconfig */,
+				69071A4BEA3D086842C9DE3B /* Pods-WhatlazaTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DE0DFC3C6D20D86A33537328 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B0E950B90C061D9D2B3BF7F /* Pods_Whatlaza.framework */,
+				6ACAC93C0A5B55175E20E8D2 /* Pods_Whatlaza_WhatlazaUITests.framework */,
+				150F285DCF259A6DCFF445BB /* Pods_WhatlazaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D8FE5662751A0F80007CCBE /* Build configuration list for PBXNativeTarget "Whatlaza" */;
 			buildPhases = (
+				55024ACC6DBC2D6FA5B9D73D /* [CP] Check Pods Manifest.lock */,
 				4D8FE5382751A0F60007CCBE /* Sources */,
 				4D8FE5392751A0F60007CCBE /* Frameworks */,
 				4D8FE53A2751A0F60007CCBE /* Resources */,
+				079C307B904D2D211AD97A21 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D8FE5692751A0F80007CCBE /* Build configuration list for PBXNativeTarget "WhatlazaTests" */;
 			buildPhases = (
+				F514E142E3CCBDC673819760 /* [CP] Check Pods Manifest.lock */,
 				4D8FE54E2751A0F70007CCBE /* Sources */,
 				4D8FE54F2751A0F70007CCBE /* Frameworks */,
 				4D8FE5502751A0F70007CCBE /* Resources */,
@@ -169,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D8FE56C2751A0F80007CCBE /* Build configuration list for PBXNativeTarget "WhatlazaUITests" */;
 			buildPhases = (
+				9841CAE861FF9DF8A97A6713 /* [CP] Check Pods Manifest.lock */,
 				4D8FE5582751A0F80007CCBE /* Sources */,
 				4D8FE5592751A0F80007CCBE /* Frameworks */,
 				4D8FE55A2751A0F80007CCBE /* Resources */,
+				B9581306A1492910533B2601 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +302,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		079C307B904D2D211AD97A21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Whatlaza/Pods-Whatlaza-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Whatlaza/Pods-Whatlaza-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Whatlaza/Pods-Whatlaza-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55024ACC6DBC2D6FA5B9D73D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Whatlaza-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9841CAE861FF9DF8A97A6713 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Whatlaza-WhatlazaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9581306A1492910533B2601 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Whatlaza-WhatlazaUITests/Pods-Whatlaza-WhatlazaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Whatlaza-WhatlazaUITests/Pods-Whatlaza-WhatlazaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Whatlaza-WhatlazaUITests/Pods-Whatlaza-WhatlazaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F514E142E3CCBDC673819760 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhatlazaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D8FE5382751A0F60007CCBE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D8FE5442751A0F60007CCBE /* ViewController.swift in Sources */,
 				4D8FE5402751A0F60007CCBE /* AppDelegate.swift in Sources */,
 				4D8FE5422751A0F60007CCBE /* SceneDelegate.swift in Sources */,
+				4D8FE5722751E8FA0007CCBE /* MovieCell.swift in Sources */,
+				4D8FE5702751A40F0007CCBE /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +587,7 @@
 		};
 		4D8FE5672751A0F80007CCBE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEA7DB54D0C545C810CB1C7C /* Pods-Whatlaza.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +616,7 @@
 		};
 		4D8FE5682751A0F80007CCBE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B6F5891BACC97ADA7D9A0F6 /* Pods-Whatlaza.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +645,7 @@
 		};
 		4D8FE56A2751A0F80007CCBE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60C4D88EA729DDCC7E87F42E /* Pods-WhatlazaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +671,7 @@
 		};
 		4D8FE56B2751A0F80007CCBE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69071A4BEA3D086842C9DE3B /* Pods-WhatlazaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +697,7 @@
 		};
 		4D8FE56D2751A0F80007CCBE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AE07EC678222CD7873B3136 /* Pods-Whatlaza-WhatlazaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -563,6 +721,7 @@
 		};
 		4D8FE56E2751A0F80007CCBE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06807F4F1502A4E1D70A4E18 /* Pods-Whatlaza-WhatlazaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
