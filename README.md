@@ -1,7 +1,5 @@
 # Whatlaza
-* A now playing movie application for iPhones, using Codepath's "Flixster" swift programming ciriculum.
-
-Whatlaza is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+* A now playing movie application for iPhones, using Codepath's "Flixster" swift programming ciriculum. Whatlaza allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
 ## Flix Part 2
 
