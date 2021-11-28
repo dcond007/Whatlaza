@@ -10,7 +10,7 @@ import UIKit
 // 12. After installing pods
 import AlamofireImage
 
-                                             // 4. Add interface (implementation)
+                                             // 4. Add interface (implements)
 class MoviesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     // 5.1 Click fix to add the implemented methods
@@ -75,6 +75,9 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         // 6.
         tableView.dataSource = self
         tableView.delegate = self
+        
+        // Add this to adjust row height
+        tableView.rowHeight = 200
         
         print("Hello")
         

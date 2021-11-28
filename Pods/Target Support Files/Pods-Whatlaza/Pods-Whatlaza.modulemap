@@ -1,0 +1,6 @@
+framework module Pods_Whatlaza {
+  umbrella header "Pods-Whatlaza-umbrella.h"
+
+  export *
+  module * { export * }
+}
