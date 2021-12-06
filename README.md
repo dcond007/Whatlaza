@@ -1,7 +1,5 @@
 # Whatlaza
-"Flixster" - Part 1
-
-Whatlaza is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+* A now playing movie application for iPhones, using Codepath's "Flixster" swift programming curriculum. Whatlaza allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
 ## Flix Part 2
 
@@ -16,6 +14,7 @@ Whatlaza is an app that allows users to browse movies from the [The Movie Databa
 - [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 ### Notes
+
 ---
 
 ## Flix Part 1
@@ -28,9 +27,9 @@ Whatlaza is an app that allows users to browse movies from the [The Movie Databa
 - [x] (3pts) User can view the movie poster image for each movie.
 
 #### BONUS
-- [ ] (2pt) User can view the app on various device sizes and orientations.
-- [ ] (1pt) Run your app on a real device.
+- [x] (2pt) User can view the app on various device sizes and orientations.
+- [x] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="https://github.com/dcond007/Whatlaza/blob/main/Whatlaza_pt1.gif" width=250><br>
