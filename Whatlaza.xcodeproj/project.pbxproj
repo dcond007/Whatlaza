@@ -19,6 +19,9 @@
 		4D8FE5632751A0F80007CCBE /* WhatlazaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FE5622751A0F80007CCBE /* WhatlazaUITestsLaunchTests.swift */; };
 		4D8FE5702751A40F0007CCBE /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FE56F2751A40F0007CCBE /* MoviesViewController.swift */; };
 		4D8FE5722751E8FA0007CCBE /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FE5712751E8FA0007CCBE /* MovieCell.swift */; };
+		4D912719275D989B007CFAE1 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D912718275D989B007CFAE1 /* MovieDetailsViewController.swift */; };
+		4D91271B275DAB77007CFAE1 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91271A275DAB77007CFAE1 /* MovieGridViewController.swift */; };
+		4D91271D275DBB56007CFAE1 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91271C275DBB56007CFAE1 /* MovieGridCell.swift */; };
 		BB3CFB36C7E203A51B388057 /* Pods_WhatlazaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150F285DCF259A6DCFF445BB /* Pods_WhatlazaTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +60,9 @@
 		4D8FE5622751A0F80007CCBE /* WhatlazaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatlazaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4D8FE56F2751A40F0007CCBE /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		4D8FE5712751E8FA0007CCBE /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		4D912718275D989B007CFAE1 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		4D91271A275DAB77007CFAE1 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		4D91271C275DBB56007CFAE1 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		60C4D88EA729DDCC7E87F42E /* Pods-WhatlazaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatlazaTests.debug.xcconfig"; path = "Target Support Files/Pods-WhatlazaTests/Pods-WhatlazaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		69071A4BEA3D086842C9DE3B /* Pods-WhatlazaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatlazaTests.release.xcconfig"; path = "Target Support Files/Pods-WhatlazaTests/Pods-WhatlazaTests.release.xcconfig"; sourceTree = "<group>"; };
 		6ACAC93C0A5B55175E20E8D2 /* Pods_Whatlaza_WhatlazaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Whatlaza_WhatlazaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +132,9 @@
 				4D8FE54A2751A0F70007CCBE /* LaunchScreen.storyboard */,
 				4D8FE54D2751A0F70007CCBE /* Info.plist */,
 				4D8FE56F2751A40F0007CCBE /* MoviesViewController.swift */,
+				4D912718275D989B007CFAE1 /* MovieDetailsViewController.swift */,
+				4D91271A275DAB77007CFAE1 /* MovieGridViewController.swift */,
+				4D91271C275DBB56007CFAE1 /* MovieGridCell.swift */,
 			);
 			path = Whatlaza;
 			sourceTree = "<group>";
@@ -157,7 +166,6 @@
 				60C4D88EA729DDCC7E87F42E /* Pods-WhatlazaTests.debug.xcconfig */,
 				69071A4BEA3D086842C9DE3B /* Pods-WhatlazaTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -410,10 +418,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D912719275D989B007CFAE1 /* MovieDetailsViewController.swift in Sources */,
 				4D8FE5402751A0F60007CCBE /* AppDelegate.swift in Sources */,
 				4D8FE5422751A0F60007CCBE /* SceneDelegate.swift in Sources */,
 				4D8FE5722751E8FA0007CCBE /* MovieCell.swift in Sources */,
 				4D8FE5702751A40F0007CCBE /* MoviesViewController.swift in Sources */,
+				4D91271B275DAB77007CFAE1 /* MovieGridViewController.swift in Sources */,
+				4D91271D275DBB56007CFAE1 /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

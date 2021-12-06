@@ -13,6 +13,8 @@ import AlamofireImage
                                              // 4. Add interface (implements)
 class MoviesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    
+    
     // 5.1 Click fix to add the implemented methods
     // Return the number of movie rows.
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -111,14 +113,30 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        
+        print("loading up the deatails page")
+        
+        // First we need to find the selected movie
+        let cell = sender as! UITableViewCell
+        let indexPath = tableView.indexPath(for: cell)!
+        let movie = movies[indexPath.row]
+        
+        // then we need to pass the selected movie to the
+        // details controller view controller
+        let detailsViewController = segue.destination as! MovieDetailsViewController
+        detailsViewController.movie = movie
+        
+        // manually deselect movie from movie cell
+        tableView.deselectRow(at: indexPath, animated: true)
+        
     }
-    */
+    
 
 }
